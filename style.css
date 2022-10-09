@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #2E2D2A;
+    
+}
+
+.menu{
+    display:flex;
+    gap: 50px;
+}
+
+h1,h2{
+    color: red;
+    font-weight: 350;
+    font-size: 400;
+    font-family: 'Kanit', sans-serif;
+    }
+
+
+h3{
+    color: rgb(190, 84, 84);
+    font-weight: 300;
+    font-size: 350;
+    font-family: 'Kanit', sans-serif;
+    }
+p{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    
+    }
+header li{
+    color: red;
+    font-family: 'Kanit', sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-weight: 300;
+    text-decoration: none;
+    }
+
+figcaption{
+    color: red;
+    font-family: 'Kanit', sans-serif;
+    }
+body{
+    background: #2E2D2A;
+    }  
+    
+
+.row {
+    display: flex;
+    }
+    
+.column {
+    flex: 50%;
+    }
+
+li{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+
+        }
+    
+header a{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    color: red;
+    }
+
+a{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    color:rgb(190, 84, 84);
+    font-weight: 300;
+    }
