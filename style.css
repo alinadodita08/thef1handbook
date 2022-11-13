@@ -80,3 +80,29 @@ a{
     color:rgb(190, 84, 84);
     font-weight: 300;
     }
+
+.car{
+    animation: anim1
+}
+    
+
+
+
+
+
+@keyframes anim1 {
+    0%{
+        transform: translate(0);
+    }
+    
+    50%{
+        transform: rotateY(1turn) translate(-100px,-500px);
+     
+    }
+    
+    100%{
+        transform: translate(0);
+    }
+    
+}
+
